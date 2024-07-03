@@ -15,7 +15,7 @@ app.use(express.json()); //To read json files entered by the user
 //Corse Policy
 app.use(cors({
     // origin: 'http://localhost:3000',
-    origin:'https://eng-alaamohamed.github.io/graduation-project-frontend',
+    origin:'https://eng-alaamohamed.github.io',
 }));
 
 //Routes
